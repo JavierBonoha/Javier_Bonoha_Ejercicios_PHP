@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IVA</title>
+</head>
+<body>
+    <h1>Calculadora de IVA</h1>
+
+    <form action="iva.php" method="get">
+        <p>Precio (sin IVA): <input type="text" name="precio"> €</p>
+        <p>Tipo de IVA:
+            <select name="iva">
+                <option value="21">General (21%)</option>
+                <option value="10">Reducido (10%)</option>
+                <option value="4">Superreducido (4%)</option>
+                <option value="0">Exento (0%)</option>
+            </select>
+        </p>
+        <p><input type="submit" value="Calcular"></p>
+    </form>
+</body>
+</html>

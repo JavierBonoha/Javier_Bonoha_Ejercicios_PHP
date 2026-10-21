@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+
+    <!-- method="post": los datos viajan ocultos en la petición, no en la URL -->
+    <form action="mensaje.php" method="post">
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Apellidos: <input type="text" name="apellidos"></p>
+        <p>Correo electrónico: <input type="text" name="email"></p>
+        <p>Mensaje:<br>
+           <textarea name="mensaje" rows="5" cols="40"></textarea></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>

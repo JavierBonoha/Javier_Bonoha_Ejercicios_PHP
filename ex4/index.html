@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Música</title>
+</head>
+<body>
+    <h1>¿Qué estilo de música te gusta más?</h1>
+
+    <form action="musica.php" method="post">
+        <!-- Todos los botones tienen el mismo name para que solo se pueda elegir uno -->
+        <input type="radio" name="estilo" value="rock"> Rock<br>
+        <input type="radio" name="estilo" value="pop"> Pop<br>
+        <input type="radio" name="estilo" value="jazz"> Jazz<br>
+        <input type="radio" name="estilo" value="clasica"> Clásica<br>
+        <input type="radio" name="estilo" value="reggaeton"> Reggaeton<br>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
